@@ -1,24 +1,15 @@
 {
-  "name": "hiperium-identity-provider",
+  "name": "hiperium-city-idp",
   "version": "1.0.0",
-  "description": "IdP for the Hiperium project",
-  "main": "index.js",
+  "author": "Andres Solorzano",
+  "description": "Identity Provider for the Hiperium Project",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "http",
-    "url": "https://bitbucket.org/hiperium/hiperium-commons-infra"
   },
   "keywords": [
     "sso",
     "idp",
     "cognito"
   ],
-  "author": "Andres Solorzano",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://bitbucket.org/hiperium/hiperium-commons-infra/issues"
-  },
-  "homepage": "https://bitbucket.org/hiperium/hiperium-commons-infra/src/main/"
+  "license": "ISC"
 }
