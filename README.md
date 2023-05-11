@@ -1,4 +1,4 @@
-## Hiperium IdP Service: Identity Provider using AWS Cognito for Hiperium App's Single Sign-On (SSO) 
+## Hiperium City IdP Service: IdP using AWS Cognito for Organization Users for the IAM Identity Center.
 
 * **Author**: [Andres Solorzano](https://www.linkedin.com/in/aosolorzano/).
 * **Level**: Intermediate.
@@ -8,8 +8,8 @@
 
 ## Project's details on Medium.com
 You can follow the last project's details on my [Medium blog](https://aosolorzano.medium.com). If you want to see the last details, you can read the following articles:
-* OpenID Connect and OAuth 2.0 [post](https://aosolorzano.medium.com/implementing-sso-with-amazon-cognito-as-an-identity-provider-idp-38d8e1d4c98d).
-* Implementing Multi-Account Environment on AWS [post](https://aosolorzano.medium.com/implementing-a-multi-account-environment-with-aws-organizations-and-the-iam-identity-center-d1cdb40bdf4d).
+* OpenID Connect and OAuth 2.0 for AWS Organizations: [blog](https://aosolorzano.medium.com/implementing-sso-with-amazon-cognito-as-an-identity-provider-idp-38d8e1d4c98d).
+* Implementing Multi-Account Environment on AWS using IAM Identity Service: [blog](https://aosolorzano.medium.com/implementing-a-multi-account-environment-with-aws-organizations-and-the-iam-identity-center-d1cdb40bdf4d).
 
 ---
 
