@@ -38,13 +38,10 @@ Finally, deploy the Cognito IdP configuration to AWS:
 amplify push
 ```
 
-Download the latest changes from the Tasks Service repository to test the Cognito IdP configuration:
-```bash
-git clone https://github.com/hiperium/hiperium-city-tasks.git
-```
-Then, execute the following command to deploy the Tasks Service to AWS:
+Download the latest changes from the City Tasks service repository to connect to the deployed IdP service
+and execute the following command to deploy the City Tasks service into AWS:
 ```bash
 sh ./run-scripts.sh
 ```
 
-You can follow the documentation of the Tasks Service in its GitHub repository.
+You can follow the complimentary documentation of the City Tasks service in its GitHub repository for more details.
