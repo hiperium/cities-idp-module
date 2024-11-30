@@ -4,10 +4,10 @@
 const awsmobile = {
     "aws_project_region": "us-east-1",
     "aws_cognito_region": "us-east-1",
-    "aws_user_pools_id": "us-east-1_123456789012",
-    "aws_user_pools_web_client_id": "123456789012",
+    "aws_user_pools_id": "us-east-1_cyHEaJxty",
+    "aws_user_pools_web_client_id": "6rmsact7vuhhlks06beu761sea",
     "oauth": {
-        "domain": "<your-idp-project>.auth.us-east-1.amazoncognito.com",
+        "domain": "city-idp-pre.auth.us-east-1.amazoncognito.com",
         "scope": [
             "phone",
             "email",
@@ -15,8 +15,8 @@ const awsmobile = {
             "profile",
             "aws.cognito.signin.user.admin"
         ],
-        "redirectSignIn": "http://localhost:8100/home/",
-        "redirectSignOut": "http://localhost:8100/home/",
+        "redirectSignIn": "https://oauth.pstmn.io/v1/browser-callback/,http://localhost/,https://main.d1mkw71bxsv92v.amplifyapp.com/",
+        "redirectSignOut": "http://localhost/,https://main.d1mkw71bxsv92v.amplifyapp.com/",
         "responseType": "code"
     },
     "federationTarget": "COGNITO_USER_POOLS",
@@ -33,11 +33,23 @@ const awsmobile = {
         "TOTP"
     ],
     "aws_cognito_password_protection_settings": {
-        "passwordPolicyMinLength": 8,
-        "passwordPolicyCharacters": []
+        "passwordPolicyMinLength": "12",
+        "passwordPolicyCharacters": [
+            "REQUIRES_LOWERCASE",
+            "REQUIRES_UPPERCASE",
+            "REQUIRES_NUMBERS",
+            "REQUIRES_SYMBOLS"
+        ]
     },
     "aws_cognito_verification_mechanisms": [
         "EMAIL"
+    ],
+    "aws_cloud_logic_custom": [
+        {
+            "name": "AdminQueries",
+            "endpoint": "https://1jl7r7jn59.execute-api.us-east-1.amazonaws.com/pre",
+            "region": "us-east-1"
+        }
     ]
 };
 
